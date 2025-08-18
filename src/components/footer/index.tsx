@@ -23,10 +23,10 @@ const Footer = () => {
         <footer className="bg-primary text-white pt-[57px] pb-[30px] border-t">
             <div className="container content-container">
                 <div className="flex lg:flex-row flex-col items-center justify-end gap-10">
-                    <div className="relative w-[230px] py-[8px] rounded-[16px] bg-white">
+                    <form dir="ltr" className="relative w-[230px] py-[8px] rounded-[16px] bg-white">
                         <Input type="email" className="bg-transparent focus-visible:ring-0 text-black border-0" placeholder={t('email')} />
-                        <Button className="absolute top-1/2 -translate-y-1/2 right-2">{t('subscribe')}</Button>
-                    </div>
+                        <Button type="submit" className="absolute top-1/2 -translate-y-1/2 right-2">{t('subscribe')}</Button>
+                    </form>
                     <Link href={ROUTES.CONTACT}>{t('navbar.contact')}</Link>
                     <div className="flex items-center gap-6">
                         <NextLink href={'https://x.com/hossamn2000'} target="_blank">{twitterIcon}</NextLink>

@@ -22,7 +22,7 @@ export default function TeamsSection() {
                     <Heading>{t_team('title')}</Heading>
                     <Description className="text-accent">{t_team('description')}</Description>
                 </div>
-                <Carousel className="max-w-[850px] mx-auto">
+                <Carousel dir="ltr" className="max-w-[850px] mx-auto">
                     <CarouselContent>
                         {t_team.raw('teams').map((item: TeamItem, index: number) =>
                             <CarouselItem key={index} className=" basis-1/1 sm:basis-1/2 lg:basis-1/3">
