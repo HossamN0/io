@@ -1,0 +1,92 @@
+{
+    "navbar": {
+        "about": "عن بن هندي للمحاماة",
+        "services": "الخدمات",
+        "teams": "الفريق",
+        "blogs": "المدونة",
+        "contact": "تواصل معنا"
+    },
+    "languages": {
+        "en": "الإنجليزية",
+        "ar": "العربية"
+    },
+    "services": [
+        {
+            "label": "خدمات الاستشارات القانونية",
+            "id": "legal_consultation"
+        },
+        {
+            "label": "خدمات الاستثمار الأجنبي",
+            "id": "foreign_investment"
+        },
+        {
+            "label": "العقود",
+            "id": "contracts"
+        },
+        {
+            "label": "التوثيق",
+            "id": "notarization"
+        },
+        {
+            "label": "التأمين",
+            "id": "insurance"
+        },
+        {
+            "label": "الدفاع في جميع القضايا",
+            "id": "defense_in_all_cases"
+        },
+        {
+            "label": "البنوك والمؤسسات المالية",
+            "id": "banks_and_financial_institutions"
+        },
+        {
+            "label": "خدمات حوكمة الشركات",
+            "id": "corporate_governance"
+        },
+        {
+            "label": "تصفية الشركات",
+            "id": "companies_liquidation"
+        },
+        {
+            "label": "اللوائح الداخلية للشركات",
+            "id": "internal_regulations"
+        },
+        {
+            "label": "خدمات الشركات والمؤسسات",
+            "id": "services_for_companies"
+        },
+        {
+            "label": "التحكيم",
+            "id": "arbitration"
+        },
+        {
+            "label": "الملكية الفكرية",
+            "id": "intellectual_property"
+        },
+        {
+            "label": "إعادة الهيكلة والتنظيم للشركات",
+            "id": "corporate_restructuring"
+        },
+        {
+            "label": "تأسيس الشركات المحلية والأجنبية",
+            "id": "establishing_companies"
+        },
+        {
+            "label": "الوكالات التجارية",
+            "id": "commercial_agencies"
+        },
+        {
+            "label": "دعم رؤية 2030",
+            "id": "supporting_vision_2030"
+        },
+        {
+            "label": "العقارات",
+            "id": "estates"
+        },
+        {
+            "label": "المزيد",
+            "id": "sea_more"
+        }
+    ],
+    "book": "احجز موعدًا"
+}

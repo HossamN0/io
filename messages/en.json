@@ -1,0 +1,88 @@
+{
+    "navbar": {
+        "about": "About",
+        "services": "Services",
+        "teams": "Our Teams",
+        "blogs": "Blogs",
+        "contact": "Contact us"
+    },
+    "languages": {
+        "en": "English",
+        "ar": "Arabic"
+    },
+    "services": [
+        {
+            "label": "Legal Consultation Services",
+            "id": "legal_consultation"
+        },
+        {
+            "label": ".............. and Defense in All Cases",
+            "id": "defense_in_all_cases"
+        },
+        {
+            "label": "Foreign Investment Services",
+            "id": "foreign_investment"
+        },
+        {
+            "label": "Contracts",
+            "id": "contracts"
+        },
+        {
+            "label": "Notarization",
+            "id": "notarization"
+        },
+        {
+            "label": "Insurance",
+            "id": "insurance"
+        },
+        {
+            "label": "Banks and Financial Institutions",
+            "id": "banks_and_financial_institutions"
+        },
+        {
+            "label": "Corporate Governance Services",
+            "id": "corporate_governance"
+        },
+        {
+            "label": "Companies Liquidation",
+            "id": "companies_liquidation"
+        },
+        {
+            "label": "Internal Regulations for Companies",
+            "id": "internal_regulations"
+        },
+        {
+            "label": "Services for Companies and Institutions",
+            "id": "services_for_companies"
+        },
+        {
+            "label": "Arbitration",
+            "id": "arbitration"
+        },
+        {
+            "label": "Intellectual Property",
+            "id": "intellectual_property"
+        },
+        {
+            "label": "Corporate Restructuring and Reorganization",
+            "id": "corporate_restructuring"
+        },
+        {
+            "label": "Establishing National and Foreign Companies",
+            "id": "establishing_companies"
+        },
+        {
+            "label": "Commercial Agencies",
+            "id": "commercial_agencies"
+        },
+        {
+            "label": "Supporting Vision 2030",
+            "id": "supporting_vision_2030"
+        },
+        {
+            "label": "Estates",
+            "id": "estates"
+        }
+    ],
+    "book": "Book Appointment"
+}
