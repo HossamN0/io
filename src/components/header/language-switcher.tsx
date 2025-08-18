@@ -21,7 +21,7 @@ function LangSwitcher() {
     const handleLanguageChange = (lang: string) => {
         if (lang !== locale) {
             const path = pathname.replace(`/${locale}`, `/${lang}`) ?? `/${locale}`;
-            router.push(path);
+            router.push(path, { scroll: false });
         }
     }
 
@@ -31,7 +31,7 @@ function LangSwitcher() {
                 {locale === LANGUAGES.ARABIC ? t_languages(LANGUAGES.ARABIC) : t_languages(LANGUAGES.ENGLISH)}
                 <span className={`${isOpen ? 'rotate-180' : ''} transition-all duration-300`}><ChevronDown className="w-[17px] h-[17px]" /></span>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-[150px] bg-primary rounded-[22px] px-4 py-5 space-y-5 text-white *:cursor-pointer *:!border-0 *:!outline-0">
+            <DropdownMenuContent className="w-[150px] bg-primary rounded-[22px] px-4 py-5 space-y-5 text-white *:cursor-pointer *:!border-0 *:!outline-0 z-[100]">
                 <DropdownMenuItem onClick={() => handleLanguageChange(LANGUAGES.ENGLISH)}>{t_languages(LANGUAGES.ENGLISH)}</DropdownMenuItem>
                 <DropdownMenuItem onClick={() => handleLanguageChange(LANGUAGES.ARABIC)}>{t_languages(LANGUAGES.ARABIC)}</DropdownMenuItem>
             </DropdownMenuContent>

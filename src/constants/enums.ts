@@ -14,7 +14,7 @@ export enum ROUTES {
     TEAMS = "teams",
     BLOG = "blog",
     CONTACT = "contact-us",
-    SERRVICES = "services",
+    SERVICES = "services",
     BOOK = "book-appointment",
 }
 

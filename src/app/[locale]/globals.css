@@ -121,12 +121,16 @@
     @apply bg-background text-foreground;
   }
 
+  header+main {
+    @apply -mt-26;
+  }
+
   .container {
-    @apply md:px-8 lg:px-12 mx-auto;
+    @apply px-2 md:px-8 lg:px-12 mx-auto;
   }
 
   .min-container {
-    @apply min-w-[355px];
+    @apply min-w-[355px] mx-auto;
   }
 
   .content-container {
