@@ -36,7 +36,7 @@ function Header() {
                 <Navbar navOpened={navOpened} setNavOpened={setNavOpened} />
                 <div className="flex items-center lg:gap-4 gap-2">
                     <LangSwitcher />
-                    <Link href={ROUTES.BOOK} className={`${buttonVariants({ variant: 'outline' })} lg:text-[14px] !text-[12px]`}>{t('book')}</Link>
+                    <Link href={ROUTES.BOOK} className={`${buttonVariants({ variant: 'outline' })} lg:text-[14px] hover:bg-transparent hover:text-white !text-[12px]`}>{t('book')}</Link>
                     <Button
                         onClick={() => setNavOpened(true)}
                         className="flex items-start justify-start bg-transparent my-[20px] lg:hidden !px-2"
