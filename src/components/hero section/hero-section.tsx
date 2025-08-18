@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { Description, Heading } from "../ui/typography"
 
 function HeroSection({
     image,
@@ -22,8 +23,8 @@ function HeroSection({
             ></div>
             <div className="flex justify-between lg:flex-row flex-col items-center lg:gap-48 gap-20 container content-container">
                 <div className="space-y-10 order-2">
-                    <h1 className="font-bold text-5xl">{title}</h1>
-                    <h2 className="font-medium text-[16px] leading-7">{description}</h2>
+                    <Heading>{title}</Heading>
+                    <Description>{description}</Description>
                     {rest.children}
                 </div>
                 {image && (

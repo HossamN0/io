@@ -5,6 +5,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { DIRECTIONS, LANGUAGES } from "@/constants/enums";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import "./globals.css";
 
 const Dmsans = DM_Sans({
@@ -39,6 +40,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

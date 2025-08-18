@@ -88,6 +88,58 @@
         "title": "Lorem Ipsum",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
+    "team": {
+        "title": "Our Teams",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "teams": [
+            {
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            },
+            {
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            },
+            {
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            },
+            {
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            }
+        ]
+    },
+    "review": {
+        "title": "What our clients are saying",
+        "description": "Our clients range from individual investors, to local, international as well as fortune 500 companies.Our clients range from individual investors, to local, international as well as fortune 500 companies.",
+        "reviews": [
+            {
+                "description": "\"With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            },
+            {
+                "description": "\"With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            },
+            {
+                "description": "\"With the help of the hospitable staff of Al Safar and Partners I was able to get my work done without any hassle. The help I received helped me a great deal to overcome the issues that I faced. I was always updated about my case and my queries never went unanswered.",
+                "name": "Hossam Nabeeh",
+                "role": "Frontend Developer",
+                "image": "/assets/persons/person.webp"
+            }
+        ]
+    },
     "book": "Book Appointment",
-    "read_more": "Read More"
+    "read_more": "Read More",
+    "email": "Email",
+    "subscribe": "Subscribe"
 }

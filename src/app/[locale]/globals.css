@@ -53,11 +53,11 @@
   --popover-foreground: oklch(0.147 0.004 49.25);
   --primary: #4B2615;
   --primary-foreground: oklch(0.985 0.001 106.423);
-  --secondary: oklch(0.97 0.001 106.424);
+  --secondary: #F3F3F3;
   --secondary-foreground: oklch(0.216 0.006 56.043);
   --muted: oklch(0.97 0.001 106.424);
   --muted-foreground: oklch(0.553 0.013 58.071);
-  --accent: oklch(0.97 0.001 106.424);
+  --accent: #1E1E1E;
   --accent-foreground: oklch(0.216 0.006 56.043);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.923 0.003 48.717);
@@ -135,6 +135,10 @@
 
   .content-container {
     @apply min-w-[305px] max-w-[1120px] w-[calc(100%-40px)] mx-auto;
+  }
+
+  .p-section {
+    @apply py-24;
   }
 
   @media (max-width: 355px) {
